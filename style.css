@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    font-family: "Montserrat", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    width: 80%;
+    margin: 10px auto;
+    background-color: #a36666;
+}
+
+header {
+    background-color: #252627;
+    margin: 1rem 0;
+    border-radius: 1.5rem;
+    color: white;
+    padding: 2rem 1rem;
+    border-style: solid;
+    border-color: #efefaa;
+    border-width: 3px;
+}
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 5px 5px 5px blueviolet ;
+}
+
+.centro {
+    text-align: center;
+}
+
+h2 {
+    color: blueviolet;
+    font-size: 35px;
+    text-shadow: 3px 3px 3px violet;
+}
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section article {
+    background-color: #f4f4f4;
+    margin: 1rem 0;
+    border-radius: 1.5rem;
+    padding: 0.25rem 0;
+    border-style: solid;
+    border-color: #efefaa;
+    border-width: 3px;
+}
+
+p {
+    color: #2b3bc2;
+    font-size: 18px;
+}
+
+.parrafo {
+    color: #2b3bc2;
+    font-size: 18px;
+    text-align: justify;
+    padding: 30px;
+    margin: 30px 30px;
+}
+
+img {
+    object-fit: cover;
+    border-radius: 1.5rem;
+    border-style: solid;
+    border-color: #fb00ff;
+    border-width: 2.5px;
+}
+
+img:hover {
+    transition: box-shadow 0.7s ease;
+    box-shadow: 0 1rem 8rem rgb(140, 8, 205);
+    cursor: pointer;
+    border-style: inset;
+    border-color: #fb00ff;
+    border-width: 2.5px;
+}
+
+.post {
+    flex: 0 1 calc(50% - 1rem);
+    height: 450px;
+    margin: 0.5rem;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem 0;
+    padding: 0.25rem 0;
+    overflow: hidden;
+}
+
+footer {
+    background-color: #f4f4f4;
+    margin: 1rem 0;
+    border-radius: 1.5rem;
+    padding: 2rem 1rem;
+    border-style: solid;
+    border-color: #efefaa;
+    border-width: 3px;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.link {
+    color: #fb00ff;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid #fb00ff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.link:hover {
+    transition: box-shadow 0.7s ease;
+    box-shadow: 0 1rem 8rem rgb(140, 8, 205);
+}
+
+.imgf1 {
+    float: left;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -25px;
+    right: -30px;
+}
+
+.imgf2 {
+    float: right;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -25px;
+    left: -30px;
+}
+
+@media (max-width: 768px) {
+    .post {
+        flex: 0 1 calc(100% - 1rem);
+        width: 100%;
+    }
+}
+
+.vertical {
+    transform: rotate(270deg);
+}
+
+.vertical1 {
+    transform: rotate(270deg);
+}
